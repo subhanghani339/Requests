@@ -122,6 +122,7 @@
   border: 1px solid #ffffff;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
   padding: 50px;
+  margin-bottom: 50px;
 }
 
 .div2 > div {
@@ -131,6 +132,112 @@
   font-size: 16.9257px;
   line-height: 20px;
   color: #959595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  padding: 50px;
+}
+
+.multiple-boxes {
+  display: flex;
+  gap: 50px;
+  margin-top: 29px;
+}
+
+.multiple-boxes > div {
+  flex-basis: 33%;
+  background: #f5f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.multiple-boxes > div > svg {
+  margin-top: 10px;
+}
+
+.holiday {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19.1247px;
+  line-height: 29px;
+  color: #85c371;
+  margin-bottom: 5px;
+}
+
+.booking {
+  background: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.booking > div {
+  display: flex;
+  align-items: center;
+}
+
+.booking > span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #959595;
+  margin-bottom: 4px;
+}
+
+.booking > div > div {
+  flex-basis: 50%;
+  padding: 10px;
+}
+
+.book-now > a {
+  background: #44a16f;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.booking-rates {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-rates > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.2321px;
+  line-height: 23px;
+  letter-spacing: -0.07em;
+  color: #959595;
+}
+
+.chat {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  right: 20px;
+  bottom: 20px;
+  background: #44a16f;
+  border: 1px solid #69ac80;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

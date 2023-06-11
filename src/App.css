@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SideBar {
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 100vh;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.SideBar > h2 {
+  width: 119px;
+  height: 43px;
+  padding-left: 38px;
+  padding-top: 37.08px;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 35.4809px;
+  line-height: 43px;
+  color: #323232;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.SideBar .links {
+  width: 190px;
+  padding-left: 19px;
+  padding-top: 146.95px;
 }
 
-.App-link {
-  color: #61dafb;
+.SideBar .links li {
+  height: 34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22.8024px;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+  color: #494949;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.29);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SideBar .links li:first-child {
+  color: #72aa83;
+}
+
+.BottomBar {
+  position: absolute;
+  left: 29px;
+  bottom: 100px;
+}
+
+.BottomBar button {
+  width: 231px;
+  height: 70px;
+  background: linear-gradient(180deg, #48af78 0%, #42996b 100%);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.BottomBar .number {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #494949;
+  display: block;
+  padding-left: 70px;
+}
+
+.BottomBar .text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #494949;
+  display: block;
+  padding: 10px 0 10px 80px;
 }

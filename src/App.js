@@ -7,7 +7,7 @@ function App() {
       <div className="SideBar">
         <h2>LODGN</h2>
         <ul className="links">
-          <li>Current Requests</li>
+          <li>Current Request</li>
           <span className="line"></span>
           <li>Ongoing Stays</li>
           <span className="line"></span>

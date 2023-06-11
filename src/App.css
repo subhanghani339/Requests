@@ -3,11 +3,18 @@
   padding: 0;
 }
 
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .SideBar {
   box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.25);
   width: 296px;
   height: 100vh;
   background-color: white;
+  z-index: 20;
 }
 
 .SideBar > h2 {
@@ -88,4 +95,43 @@
   color: #494949;
   display: block;
   padding: 10px 0 10px 80px;
+}
+
+/* Main Screen CSS */
+
+.main-screen {
+  background-color: #d9d9d9;
+  width: calc(100% - 296px);
+  height: 100vh;
+  padding: 50px 50px 0;
+}
+
+.numberOfRequests {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28.5557px;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+  color: #72aa83;
+}
+
+.box-1 {
+  margin-top: 29px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 50px;
+}
+
+.div2 > div {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  line-height: 20px;
+  color: #959595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
